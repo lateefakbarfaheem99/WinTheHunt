@@ -1,0 +1,33 @@
+<!--
+FOR USE WITH THE OFFLINE MARKETING MODULE
+USAGE INSTRUCTIONS
+------------------
+1. Move the code below to a page in your existing website.
+2. Make sure the POST/ACTION below points to /idevaffiliate/idevaffiliate.php.
+3. Change the TAG to match the "Offline Marketing Alias" you entered in the Admin Center.
+4. Change the sizes, styles and colors all you want.
+5. If you've used the Incoming Traffic Filename module, make sure to change the (action=) setting to match.
+
+If the customer enters an INVALID affiliate ID, they will still be taken to the defined Return URL.
+Why?  Because we never want to prevent a customer from entering your site just because they didn't
+have a valid (aliased) affiliate ID.
+-->
+
+<table border="0" cellpadding="0" cellspacing="0" width="210" bgcolor="#C1C184">
+
+<!-- Change the POST/ACTION below. -->
+
+<form method="POST" action="http://www.idevshop.com/idev/idevaffiliate.php">
+<input type="hidden" name="offline_delivery" value="1">
+
+<tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%" height="25">
+<tr><td width="65%" bgcolor="#EEEEDD">&nbsp;
+
+<!-- Make sure this tag name matches the "Offline Marketing Alias" you entered in the admin center. -->
+
+Promotional Code:
+
+</td><td width="35%" bgcolor="#EEEEDD">&nbsp;<input type="text" name="id" size="6" style="width:60"></td></tr>
+<tr><td width="65%" bgcolor="#EEEEDD"></td>
+<td width="35%" bgcolor="#EEEEDD">&nbsp;<input type="submit" value="Submit" style="width:60"></td></form></tr>
+</table></td></tr></table>

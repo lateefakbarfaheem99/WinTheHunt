@@ -1,0 +1,4 @@
+id,username,password,approved,suspended,payable,tax_id_ssn,company,f_name,l_name,email,address_1,address_2,city,state,zip,country,phone,fax,url,pp,paypal,tier,type,level
+1511,deniro11,test123,1,0,Robert Deniro,556-55-5556,iDevDirect.com L.L.C.,Robert,Deniro,email@email.com,25344 Silver Aspen Way,#926,Valencia,CA,91382,US,661-254-4921,661-254-4545,http://www.test.com,1,payments@idevdirec.com,0,1,1
+1512,pacino_ace,test123,1,0,Albert Pacino,556-55-5556,"AlPac, LLC.",Al,Pacino,email@email.com,123 main street,,Somewhere,AZ,55555,US,661-254-4921,661-254-4545,http://www.test.com,1,payments@idevdirec.com,0,1,1
+1513,nick_cage,test123,1,0,"SuperStar, Inc.",556-55-5556,"SuperStar, Inc.",Nicolas,Cage,email@email.com,543 Dearborn Dr.,,Santa Clarita,NY,56984,US,661-254-4921,661-254-4545,http://www.test.com,1,payments@idevdirec.com,0,1,1

@@ -1,0 +1,255 @@
+/* v6.02 CSS */
+
+
+.toplink { font-size: 10px; color: #124490; text-decoration: none; }
+.toplink a { font-size: 10px; color: #124490; text-decoration: underline; }
+.toplink a:hover { font-size: 10px; color: #124490; text-decoration: none; }
+
+#icomenu {margin-right: 5px;}
+
+.partb { font-size: 11px; font-weight: bold; padding-left: 5px; color: #ffffff;}
+.partb a { color: #ffffff; text-decoration:  underline; font-weight: normal;}
+.partb a:hover { color: #ffffff; text-decoration: none; font-weight: normal;}
+
+.party { font-size: 11px; font-weight: bold; padding-left: 5px; color: #000000;}
+.party a { color: #000000; text-decoration:  underline; font-weight: normal;}
+.party a:hover { color: #000000; text-decoration: none; font-weight: normal;}
+
+.mainmenu {font-size: 10px; color: #000000; }
+.mainmenu a {color: #3366cc; text-decoration: none;}
+.mainmenu a:hover { color: #3366cc; text-decoration: underline;}
+
+.bordermenu  { border-left: 1px solid #cccccc; border-top: 1px solid #cccccc; border-right: 1px solid #777777; border-bottom: 1px solid #777777;}
+
+.warning { background: #ffe432; font-size: 10px; font-weight: bold; color: #bb0000; text-decoration: none; }
+.warning a { font-size: 10px; font-weight: bold; text-decoration: underline; color: #bb0000;}
+.warning a:hover { font-size: 10px; font-weight: bold; color: #FF0000; text-decoration: none;}
+
+
+/* CONTENT PAGES classes */
+.topic_id { font-size: 11px; font-weight: bold; padding-left: 15px; padding-bottom: 5px;}
+.topic_id a { color: #3366cc; text-decoration:  underline;}
+.topic_id a:hover { color: #3366cc; text-decoration: none; }
+
+.topic_content { font-size: 11px; font-weight: normal; color: #000000; padding-left: 15px; margin-top: 5px; margin-bottom: 10px;}
+.topic_content a { color: #3366cc;}
+.topic_content a:hover { color: #3366cc;}
+
+
+.bordercat { background-color: #fff5cc; border: 1px solid #ffba00;}
+.borderstat { background-color: #fff5cc; border: 1px solid #6e97ea;}
+
+/* GLOBAL classes - skin & pages */
+td { font-family: Verdana, Helvetica, sans-serif; font-size: 11px;}
+input { font-family: Verdana, Helvetica, sans-serif; font-size: 11px;}
+textarea { font-family: Verdana, Helvetica, sans-serif; font-size: 11px;}
+select { font-family: Verdana, Helvetica, sans-serif; font-size: 11px;}
+hr {border: 1px solid #c3c3c3;}
+
+.borderfeat { border: 1px solid #cccccc; padding: 3px;}
+.c1feat {font-size: 13px; color: #3366cc; font-weight: bold; text-decoration: none;} /* blue */
+.c1feat a {color: #3366cc; font-weight: bold; text-decoration: none;}
+.c1feat a:hover {color: #3366cc; font-weight: bold; text-decoration: none;}
+
+
+/* Classes for categories featured items */
+.catfeatmaincell { background-color: #ffffff; border: 1px solid #cccccc;}
+.catfeattable { }
+.catfeatpic { }
+.catfeatc3 {  background-color: #e97300; color: #ffffff; font-weight: bold; text-decoration: none; font-size: 12px;}
+.catfeatc3 a {color: #ffffff; font-weight: bold;}
+.catfeatc3 a:hover {color: #ffffff; font-weight: bold;}
+.catfeatc1 { background-color: #F8F8F8; }
+
+/* EOF Classes for categories featured items */
+
+#bot { border-bottom: 1px solid #E1E2E4;}
+
+.subcat { font-family: Verdana, Helvetica, sans-serif; font-size: 11px; color: #000000; }
+.subcat a { font-family: Verdana, Helvetica, sans-serif; font-size: 11px; color: #222222;}
+.subcat a:hover { font-family: Verdana, Helvetica, sans-serif; font-size: 11px; color: #555555;}
+
+.catmain { font-size: 11px; font-weight: bold; color: #0033cc; }
+.catmain a {font-weight: bold;  font-size: 11px; color: #0033cc;}
+.catmain a:hover { font-weight: bold; font-size: 11px; color: #3366cc;}
+
+
+.buyingtitle { background-color: #759c0c; color: #ffffff;}
+.sellingtitle { background-color: #ff8a00; color: #ffffff;}
+
+
+/* Alert fonts*/
+.redfont {color: FF0000;}
+.greenfont {color: #006600;}
+.bluefont {color: #0000CC;}
+.alertfont {color: #FF0000;}
+
+/* Feedback fonts*/
+.positive {color: #009933;}
+.neutral {color: #666666;}
+.negative {color: #FF0000;}
+
+/* SYSTEM classes - skin & pages */
+
+/* payment gateways table */
+.paymenttable {border: 1px solid #666666; background-color: #FFFFFF;}
+.paytable1 {background-color: #FFFFFF;}
+.paytable2 {background-color: #F8F8F8;}
+.paytable3 {background-color: #f0f0f0;}
+.payactive {color: blue;}
+
+
+.sell {font-size: 11px;   }
+.sell a {font-size: 11px;  }
+.sell a:hover { font-size: 11px;  text-decoration: none; }
+
+.item { font-size: 11px; color: #000000; text-decoration: none;}
+.item a { font-size: 11px; color: #000000; text-decoration: underline; }
+.item a:hover { font-size: 11px; color: #FF0000; text-decoration: none; }
+
+.smallfont { font-size: 10px; color: #000000; text-decoration: none;}
+.smallfont a { font-size: 10px; color: #000000; text-decoration: underline; }
+.smallfont a:hover { font-size: 10px; color: #3366cc; text-decoration: none; }
+
+.contentfont { font-size: 11px; color: #000000; text-decoration: none; }
+.contentfont a { font-size: 11px; color: #0066cc; text-decoration: none; }
+.contentfont a:hover { font-size: 11px; color: #336600; text-decoration: underline; }
+
+.submenu {font-size: 11px; font-weight: bold; color: #FFFFFF; text-decoration: none;}
+.submenu a {font-size: 11px; font-weight: bold; color: #FFFFFF; text-decoration: underline;}
+.submenu a:hover { font-size: 11px; font-weight: bold; color: #FFFF00; text-decoration: none; }
+
+
+/* SYSTEM classes - auctiondetails.php */
+.topitempage { background-color: #FFFFE1; border: 1px dashed #CFCFCF; margin-bottom: 5px; padding: 6px; line-height: 18px; }
+.topitempage a { font-size: 11px; color: #000000; text-decoration: underline; }
+.topitempage a:hover { font-size: 11px; color: #FF0000; text-decoration: underline; }
+.itemid { font-family: Verdana, Helvetica, sans-serif; font-size: 21px; font-weight: bold; margin-bottom: 5px;}
+.itemidend { font-family: Verdana, Helvetica, sans-serif; font-size: 11px; color: #555555; font-weight: bold;}
+.subitem { background-color: #ffffff; border: 1px solid #c3c3c3;}
+.counter {background-color: #FF9900; color: #FFFFFF; font-weight: bold; font-size: 12px;}
+.picselect { background-color: #F0F0F0; font-weight: bold;}
+.picselectmain { background-color: #F8F8F8;}
+.leftborder {border-left: 1px solid #c3c3c3;} 
+
+.gradient {border: 1px solid #999999; background-color: #FFFFE1; } /* featured items images bg */
+
+/* SYSTEM classes - border for Steps in sell item pages */
+.sellsteptab { border-left: 1px solid #c3c3c3; border-bottom: 1px solid #c3c3c3; border-right: 1px solid #c3c3c3;}
+.sell1 { background-color: #e9117c; color: #ffffff; font-weight: bold;}
+.sell2 { background-color: #e2e2e2; color: #000000; font-weight: normal;}
+.selldigit { background-color: #F8F8F8; font-family: Tahoma, Verdana, Helvetica, sans-serif; font-size: 18px; color: #000000; font-weight: bold; text-decoration: none; }
+
+/* SYSTEM classes - font in Members area  */
+.boldgrey { font-size: 11px; color: #666666; font-weight: bold; text-decoration: none;}
+.boldgrey a { font-size: 11px; color: #666666; font-weight: bold; text-decoration: underline;}
+.boldgrey a:hover { font-size: 11px; color: #666666; font-weight: bold; text-decoration: none;}
+
+.buyout { font-size: 16px; color: #cc0000; font-weight: bold; text-decoration: none; }
+
+
+
+/* THEME classes - members_area_header_menu.php  */
+.membmenuicon { padding-bottom: 4px;padding-top: 4px;}
+.memmenu_a {background-color: #e9117c; border-right: 2px solid #ffffff; border-right: 2px solid #ffffff;}
+.memmenu_a a {font-weight: bold; color: #ffffff; text-decoration: none;}
+.memmenu_a a:hover {font-weight: bold; color: #ffffff; text-decoration: underline;}
+
+.memmenu_u {background-color: #ffdaec; color: #000000; text-decoration: none;  border-right: 2px solid #ffffff; border-bottom: 2px solid #ffffff; }
+.memmenu_u a { color: #000000; text-decoration: none;}
+.memmenu_u a:hover { color: #000000; text-decoration: underline;}
+
+.submembmenu { border-top: 2px solid #e9117c;}
+
+.subcell_a { font-weight: bold; color: #ffffff; text-decoration: none; background-color: #e9117c; border-right: 2px solid #ffffff; border-top: 2px solid #ffffff; padding-left: 5px; padding-right: 5px;}
+.subcell_a a { font-weight: bold; color: #ffffff; text-decoration: none;}
+.subcell_a a:hover {font-weight: bold; color: #ffffff; text-decoration: underline; }
+
+.subcell_u { background-color: #ffdaec; font-weight: normal; color: #000000; text-decoration: none; border-right: 2px solid #ffffff; border-top: 2px solid #ffffff; padding-left: 5px; padding-right: 5px;}
+.subcell_u a { font-weight: normal; color: #000000; text-decoration: none;}
+.subcell_u a:hover {font-weight: normal; color: #000000; text-decoration: underline; }
+
+.membmenu {background-color: #F8F8F8; }
+
+
+
+/* SYSTEM classes - links color in categories headers */
+.cathead { font-size: 11px; font-weight: bold; color: #573f00; text-decoration: none; }
+.cathead a { font-size: 11px; font-weight: normal; color: #573f00; text-decoration: underline; }
+.cathead a:hover { font-size: 121px; font-weight: normal; color: #cc0000; text-decoration: none; }
+
+/* SYSTEM classes - error & alert message */
+.errormessage { background-color: #FFFFE1; border: 1px solid #CFCFCF; margin-top: 5px; margin-bottom: 5px; padding: 6px; line-height: 18px; }
+
+/* V5 & system classes &  - main colors */
+.c3 {background-color: #555555; color: #FFFFFF; font-weight: bold; text-decoration: none;} /* blue */
+.c3 a {color: #FFFFFF; font-weight: bold;}
+.c3 a:hover {color: #FFFFFF; font-weight: bold;}
+.c2 {background-color: #F8F8F8;} /* lightgray light */
+.c1 {background-color: #F0F0F0;} /* lightgray middle*/
+.c4 {background-color: #E1E2E4;} /* lightgray dark */
+.c5 {background-color: #a6a6a6;} 
+.c6 {background-color: #EEF2F9; color: #003399;}
+.c7 {background-color: #E3E4EB;} /* bluegray admin area */
+.c8 { background-color: #0C6CBB; color: white; font-weight: bold; }
+.c9 { background-color: #acc7ef; }
+.whiteback { background-color: white; }
+
+
+/* SYSTEM classes - register.php */
+.creg2 {background-color: #F8F8F8;} /* lightgray light */
+.creg3 {background-color: #F0F0F0;} /* lightgray middle*/
+.creg4 {background-color: #ffffff;} /* inside bg for tables */
+.creg5 {background-color: #a6a6a6;} /* block tables */
+.regborder {background-color: #ffffff; border: 1px solid #a6a6a6;}
+.regsignup {background-color: #FF9900; color: #FFFFFF; font-weight: bold; font-size: 12px;}
+.reguser { font-size: 9px; background-color: #FFFFFF; color: #666666;} /* small text for comments*/
+.pintext { font-family: Verdana, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #666666; }
+
+.border {border: 1px solid #c3c3c3; background-color: #FFFFFF;}
+
+
+/* V5 classes - featured items colors in main page */
+a.hidelayer:link {font-size: 11px; font-weight: bold; text-decoration: none;}
+a.hidelayer:visited {font-size: 11px; font-weight: bold; text-decoration: none;}
+
+/* V5 classes - main nav menu colors */
+
+.user { font-family: Verdana, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #666666; }
+
+/* V5 classes - other */
+.search {font-size: 11px; color: #ffffff; }
+.search a {color: #ffffff; text-decoration: underline;}
+.search a:hover { color: #ffffff; text-decoration: none; }
+
+.welcome { font-family: Verdana, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #003399; }
+
+.categories { font-family: Verdana, Helvetica, sans-serif; color: #666666; font-size: 11px; text-decoration: none;}
+.categories a { font-family: Verdana, Helvetica, sans-serif; color: #666666; font-size: 11px; text-decoration: none;}
+.categories a:hover { font-family: Verdana, Helvetica, sans-serif; color: #666666; font-size: 11px; text-decoration: underline;}
+
+.maintext { font-family: Verdana, Helvetica, sans-serif; font-size: 11px; }
+
+
+.title { font-family: Verdana, Helvetica, sans-serif; color: #0066cc; font-size: 15px; font-weight: bold; border-bottom: 2px solid #555555;}
+
+/* V5 classes - footer.php */
+.footerfont { font-size: 11px; color: #000000; text-decoration: none; }
+.footerfont a { font-size: 11px; color: #3366cc; text-decoration: underline; }
+.footerfont a:hover { font-size: 11px; color: #3366cc; text-decoration: none; }
+
+.footerfont1 { font-size: 10px; color: #000000; text-decoration: none; }
+.footerfont1 a { font-size: 10px; color: #3366cc; text-decoration: underline; }
+.footerfont1 a:hover { font-size: 10px; color: #3366cc; text-decoration: none; }
+
+.bold_item { font-weight: bold; }
+.hl_item { background-color: #ffffcc; }
+
+
+.part { font-size: 11px; color: #ffffff; text-decoration: none; font-weight: bold; padding-left: 6px; border-left: 1px solid #ffffff;}
+.part a { color: #ffffff; text-decoration: underline; }
+.part a:hover { color: #ffffff; text-decoration: none; }
+
+.part1 { font-size: 11px; color: #000000; text-decoration: none; font-weight: bold; padding-left: 6px; border-left: 1px solid #ffffff;}
+.part1 a { color: #000000; text-decoration: underline; }
+.part1 a:hover { color: #000000; text-decoration: none; }

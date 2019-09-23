@@ -1,0 +1,141 @@
+
+.nomargins {
+	margin:0px;
+	padding: 4px;
+}
+ 
+body {
+font-size: 11px;
+font-family: Arial, Helvetica, sans-serif;
+color: #000000;
+}
+
+td {
+font-size: 11px;
+font-family: Arial, Helvetica, sans-serif;
+color: #000000;
+}
+
+A {
+color: blue;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+font-weight: normal;
+}
+
+A:hover {
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: underline;
+font-weight: normal;
+}
+
+tr.menu_text_indent_10 {
+text-indent: 10px;
+}
+
+tr.menu_text_indent_5 {
+text-indent: 5px;
+}
+
+SELECT, OPTION {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #A9C1FB;
+}
+
+table.invoice {
+	border-spacing: 0px;
+	border:0px none white;
+	border-collapse: collapse;
+	background-color: #F9F9F9;
+}
+
+table.invoice_sub {
+	border-spacing: 0px;
+	border:0px none white;
+	border-collapse: collapse;
+	background-color: #FFFDE3;
+}
+
+table.invoice td {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #DDE3F9;
+	background-color: #F4F6FD;
+	padding: 2px 2px 2px 2px;
+	text-indent: 4px;
+	height: 26px;
+}
+
+table.invoice_data {
+	border-spacing: 0px;
+	border:0px none white;
+	border-collapse: collapse;
+	padding: 6px 6px 6px 6px;
+}
+
+table.invoice_data td {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #EFF4FC;
+	padding: 6px 6px 6px 6px;
+	height: 26px;
+}
+
+table.invoice_dataSub {
+	border-spacing: 0px;
+	border:0px none white;
+	border-collapse: collapse;
+	padding: 4px 4px 4px 4px;
+}
+
+table.invoice_dataSub td {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #EFF4FC;
+	padding: 4px 4px 4px 4px;
+	height: 26px;
+}
+
+input.button {
+   color:#FFFFFF;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:100%;
+   font-weight:bold;
+   background-color:#ffa200;
+   border:1px solid;
+   border-top-color:#777777;
+   border-left-color:#777777;
+   border-right-color:#243;
+   border-bottom-color:#243;
+}
+
+input.install_button {
+   font-family: Helvetica, Arial, sans-serif;
+   font-size:90%;
+	height: 20px;
+	width: 125px;
+}
+
+input.red_button {
+   color:#FFFFFF;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:100%;
+   font-weight:bold;
+   background-color:#CC0000;
+   border:1px solid;
+   border-top-color:#777777;
+   border-left-color:#777777;
+   border-right-color:#243;
+   border-bottom-color:#243;
+}
+
+.ReportsButton {
+font-size: 8pt;
+font-family: Arial, Helvetica, sans-serif;
+width: 125px;
+height: 20px;
+}
+
+

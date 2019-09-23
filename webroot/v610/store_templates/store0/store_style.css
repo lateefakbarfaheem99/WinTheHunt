@@ -1,0 +1,46 @@
+/* V5.30 CSS - Apr.04 2006 - only store related links */
+
+
+
+.store_main { border: 1px solid #acc7ef; background-color: #FFFFFF; }
+.feat_borders { border: 1px solid #acc7ef; background-color: #FFFFFF; }
+
+.catnav_shop { font-size: 11px; color: #ffffff; text-decoration: none; background-color: #0c6cbb; border-top: 2px solid #074170;}
+.catnav_shop a { font-size: 11px; color: #ffffff; text-decoration: none; }
+.catnav_shop a:hover { font-size: 11px; color: #ffffff; text-decoration: underline; }
+
+.smallfont_shop { font-size: 10px; color: #222222;}
+.smallfont_shop a { font-size: 10px; color: #222222; text-decoration: none; }
+.smallfont_shop a:hover { font-size: 10px; color: #222222; text-decoration: underline; }
+
+.menu_shop { height: 23px;}
+.menu_shop a { font-size: 11px; color: #FFFFFF; text-decoration: none; }
+.menu_shop a:hover { font-size: 11px; color: #FFFFFF; text-decoration: underline; }
+
+.search_shop { background-color: #E3EEF6; border-bottom: 1px solid #003366;}
+
+
+.bordermenu_shop { background-color: #336699;  border-left: 1px solid #85a3c2; border-top: 1px solid #85a3c2; border-bottom: 1px solid #003366; border-right: 1px solid #003366;}
+
+.footer_shop { font-size: 11px; color: #000000; text-decoration: none; background-color: #F0F6FA; border-top: 2px solid #acc7ef;}
+.footer_shop a { font-size: 11px; color: #003366; text-decoration: underline; }
+.footer_shop a:hover { font-size: 11px; color: #006699; text-decoration: underline; }
+
+.contentfont_shop { font-size: 11px; color: #000000; text-decoration: none; }
+.contentfont_shop a { font-size: 11px; color: #003366; text-decoration: underline; }
+.contentfont_shop a:hover { font-size: 11px; color: #006699; text-decoration: underline; }
+
+.submenu_shop {font-size: 10px; font-weight: bold; color: #FFFFFF; text-decoration: none;}
+.submenu_shop a {font-size: 10px; font-weight: bold; color: #FFFFFF; text-decoration: underline;}
+.submenu_shop a:hover { font-size: 10px; font-weight: bold; color: #FFFF00; text-decoration: none; }
+
+/* SYSTEM classes - error & alert message */
+.errormessage_shop { background-color: #FFFFE1; border: 1px dashed #CFCFCF; margin-top: 8px; margin-bottom: 16px; padding: 6px; line-height: 18px; }
+
+/* V5 & system classes &  - main colors */
+.c1_shop {background-color: #0082D6; color: #FFFFFF; font-weight: bold;} /* blue */
+.c1_shop a {color: #FFFFFF; font-weight: bold;}
+.c1_shop a:hover {color: #FFFFFF; font-weight: bold;}
+.c2_shop {background-color: #F8FBFD;}
+.c3_shop {background-color: #F0F6FA;}
+.c4_shop {background-color: #E3EEF6;}

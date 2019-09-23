@@ -1,0 +1,162 @@
+#browse_tab {
+   border-bottom: 1px solid #cccccc;
+   margin: 3px 2px;
+}
+
+#browse_tab ul {
+   padding: 3px 0;
+   margin-left: 100px;
+   margin-bottom: 0;
+   font-size: 12px;
+   font-weight: bold;
+   list-style-type: none;
+}
+
+#browse_tab li {
+   display: inline;
+}
+
+#browse_tab li a {
+   background-color: #e4e4e4;
+   text-decoration: none;
+   padding: 3px 7px;
+   margin-right: 3px;
+   border: 1px solid #cccccc;
+   color: #000;
+}
+
+#browse_tab li a:hover{
+   text-decoration: underline;
+   color: #000;
+}
+
+#browse_tab li.selected{
+   position: relative;
+   color: #000;
+}
+
+#browse_tab li.selected a{
+   background-color: white;
+   border-bottom-color: white;
+   color: #000;
+}
+
+#browse_tab li.selected a:hover{ 
+   text-decoration: none;
+   color: #000;
+}
+
+#browse_found {
+   text-align: center;
+}
+
+.thumbnail_display {
+   margin-right: 5px;
+   float: left;
+   text-align: center;
+}
+
+.thumbnail_display_empty {
+   float: left;
+   margin-right: 0;
+}
+
+.category_box {
+   margin-right: 5px;
+   margin-bottom: 5px;
+   float: left;
+}
+
+.cat_select_proceed {
+	clear: left;
+	text-align: center;
+	width: 150px;
+	padding: 2px;
+	border: 1px solid #cccccc;
+	background-color: #E1E2E4;
+}
+
+.src_input {
+	width: 100%;
+}
+
+.srcbox_title {
+	padding: 4px;
+	text-align: center;
+}
+
+.left {
+	float: left;
+}
+
+#ad_image {
+	border: 1px solid #ccc;
+	vertical-align: middle;	
+}
+
+.wraptocenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 260px;
+    height: 260px;
+}
+.wraptocenter * {
+    vertical-align: middle;
+}
+
+.wraptocenter {
+    display: block;
+}
+.wraptocenter span {
+    display: inline-block;
+    height: 100%;
+    width: 1px;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.thumbnails div {
+	padding-left: 2px;
+	margin: 1px;
+}
+
+.thumbnails div img, .thumb {
+	border: 1px solid #ccc;
+}
+
+/* progress bar css */
+DIV.ProgressBar { 
+	width: 100px; 
+	padding: 0; 
+	border: 1px solid black; 
+	margin-right: 1em; 
+	height:.75em; 
+	margin-left:1em; 
+	display:-moz-inline-stack; 
+	display:inline-block; 
+	zoom:1; 
+	*display:inline; 
+}
+DIV.ProgressBar DIV { 
+	background-color: Green; 
+	font-size: 1pt; 
+	height:100%; 
+	float:left; 
+}
+SPAN.asyncUploader OBJECT { 
+	position: relative; 
+	top: 5px; 
+	left: 10px; 
+}
+
+textarea.tinymce {
+	width: 100%;
+	height: 300px;
+}

@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+#thumbnails_container {
+	position:relative; 
+	left: 0;
+	top: 0;
+	width: 200px;
+	padding: 5px;
+	background-color: #bbb;
+}
+#thumbnails_container .thumbScroller {
+	position:relative; width:100%; overflow:hidden;
+}
+#thumbnails_container .thumbScroller, 
+#thumbnails_container .thumbScroller .container, 
+#thumbnails_container .thumbScroller .content {
+	height:78px;
+}
+#thumbnails_container .thumbScroller .container {
+	position:relative; left:0;
+}
+#thumbnails_container .thumbScroller .content {
+	float:left;
+}
+#thumbnails_container .thumbScroller .content div {
+	padding:3px; height:100%;
+}
+#thumbnails_container .thumbScroller img {
+	border:none;
+}
+#thumbnails_container .thumbScroller .content div a {
+	display:block; border:5px solid #ddd;
+}
+#thumbnails_container .thumbScroller .content div a:hover {
+	border-color:#eee;
+}
+
+#ts_container{position:relative; margin:0; width:200px; background:#444; border:1px solid #999;}
+#ts_container .thumbScroller{position:relative; overflow:hidden;}
+#ts_container .thumbScroller, #ts_container .thumbScroller .container, #ts_container .thumbScroller .content{height:78px;}
+#ts_container .thumbScroller .container{position:relative; left:0;}
+#ts_container .thumbScroller .content{float:left;}
+#ts_container .thumbScroller .content div{padding:10px 15px; height:100%;}
+#ts_container .thumbScroller img{border:5px solid #fff;}
+#ts_container .thumbScroller .content div a{display:block; -moz-box-shadow:0 0 5px #000; -webkit-box-shadow:0 0 5px #000; box-shadow:0 0 5px #000;}
+#ts_container .thumbScroller .content div a:hover{-moz-box-shadow:0 0 15px #000; -webkit-box-shadow:0 0 15px #000; box-shadow:0 0 15px #000;}

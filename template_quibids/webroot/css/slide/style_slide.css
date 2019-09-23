@@ -1,0 +1,51 @@
+.content {
+	width:960px;
+	background:url(images/content_bg.jpg) repeat-y center;
+	margin-left:auto;
+	padding:0 10px;
+	margin-right:auto;
+	margin-top:1px;
+	
+}
+
+.slider {
+	width:940px;;
+	height:222px;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+}
+.slider li{
+	list-style:none;
+}
+
+
+
+.sliderOrangeBtn {
+	height:36px;
+	border:1px solid #6a6969;
+	line-height:26px;
+	padding:0 10px;
+	padding-top:9px;
+	display:block;
+	font-size:26px;
+	color:#FFF;
+	float:left;
+	background:url(images/Slide_btn_orange.jpg) repeat-x;
+}
+.sliderBlueBtn {
+	height:38px;
+	border:1px solid #6a6969;
+	line-height:26px;
+	padding:0 5px;
+	padding-top:7px;
+	display:block;
+	font-size:40px;
+	font-weight:bold;
+	color:#FFF;
+	float:left;
+	background:url(images/Slide_btn_blue.jpg) repeat-x;
+}
+
+
+
